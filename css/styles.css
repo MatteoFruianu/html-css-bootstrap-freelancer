@@ -24,3 +24,47 @@ main {
   width: 300px;
 
 }
+
+/* contact */
+
+.contacts {
+  background: #a5ecd7;
+
+}
+
+.contacts .container {
+  background: #e8ffc1;
+  padding-bottom: 80px;
+
+}
+
+.contacts .container .row>div {
+  background-color: #a5ecd7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* about */
+
+.about {
+  background: #51adcf;
+}
+
+.about .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about .container .row>div {
+  background: #e8ffc1;
+  border: 1px solid lightcoral;
+}
+
+
+footer {
+  background: black;
+}
+
+footer .container {
+  background: #a5ecd7;
+}

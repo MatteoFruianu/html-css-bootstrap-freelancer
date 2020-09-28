@@ -1,0 +1,26 @@
+.container {
+  background: #0278ae ;
+  border: 1px solid black;
+  /* padding: 50px 0; */
+}
+
+  /* header start */
+
+header {
+  background: #a5ecd7;
+  padding: 50px 0;
+}
+
+/* main */
+
+main {
+  background: #51adcf;
+}
+
+.box {
+  background: #e8ffc1;
+  margin: 20px auto;
+  height: 200px;
+  width: 300px;
+
+}

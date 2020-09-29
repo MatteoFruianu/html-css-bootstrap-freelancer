@@ -1,20 +1,51 @@
-.container {
-  background: #0278ae ;
-  border: 1px solid black;
-  /* padding: 50px 0; */
+
+
+/* main header */
+
+.main-header .navbar {
+  background: #2c3e50;
+  border-radius: 0;
+  text-transform: uppercase;
+  border: 0;
+  margin-bottom: 0;
 }
 
-  /* header start */
-
-header {
-  background: #a5ecd7;
-  padding: 50px 0;
+.main-header .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  color: white;
 }
+
+.main-header .navbar-nav > li > a {
+  line-height: 80px;
+  padding: 0 15px;
+  color: white;
+  font-weight: bold;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background: #1abc9c;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.jumbotron img {
+  height: 250px;
+}
+
 
 /* main */
 
-main {
-  background: #51adcf;
+.main-header, nav {
+  background: red;
 }
 
 .box {

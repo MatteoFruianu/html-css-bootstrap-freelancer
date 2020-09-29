@@ -1,4 +1,9 @@
-
+/* general */
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 50px;
+}
 
 /* main header */
 
@@ -31,6 +36,7 @@
 .jumbotron {
   background: #1abc9c;
   color: white;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -44,17 +50,26 @@
 
 /* main */
 
-.main-header, nav {
-  background: red;
+main {
+  background: #d2d5e1;
+  margin-top: 0;
+  padding-bottom: 50px;
 }
 
-.box {
+main .portfolio {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+main img {
   background: #e8ffc1;
   margin: 20px auto;
   height: 200px;
   width: 300px;
+  border-radius: 10px;
 
 }
+
 
 /* contact */
 
@@ -76,17 +91,24 @@
 }
 
 /* about */
-
 .about {
+  background: #1abc9c;
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* about-us */
+
+.about-us {
   background: #51adcf;
 }
 
-.about .container {
+.about-us .container {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.about .container .row>div {
+.about-us .container .row>div {
   background: #e8ffc1;
   border: 1px solid lightcoral;
 }

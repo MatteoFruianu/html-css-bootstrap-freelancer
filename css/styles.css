@@ -5,6 +5,10 @@ h2 {
   padding-top: 50px;
 }
 
+i {
+  font-size: 24px;
+}
+
 /* main header */
 
 .main-header .navbar {
@@ -51,7 +55,7 @@ h2 {
 /* main */
 
 main {
-  background: #d2d5e1;
+  background: #ffffff;
   margin-top: 0;
   padding-bottom: 50px;
 }
@@ -67,35 +71,68 @@ main img {
   height: 200px;
   width: 300px;
   border-radius: 10px;
+}
 
+/* about-section */
+
+.about {
+  background: #1abc9c;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.about .btn-group-lg>.btn, .btn-lg {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 20px 40px;;
+  color: white;
+  border: 2px solid white;
+  background: #1abc9c;
+}
+
+.about .btn-group-lg>.btn, .btn-lg:hover {
+  background: white;
+  transition: background 0.4s;
+  border: 2px solid white;
+}
+
+.about .btn-group-lg>.btn, .btn-lg i {
+  padding-right: 10px;
+  font-size: 22px;
 }
 
 
 /* contact */
 
 .contacts {
-  background: #a5ecd7;
-
-}
-
-.contacts .container {
-  background: #e8ffc1;
-  padding-bottom: 80px;
-
-}
-
-.contacts .container .row>div {
-  background-color: #a5ecd7;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* about */
-.about {
-  background: #1abc9c;
-  color: white;
+  color: #2c3e50;
   padding-bottom: 50px;
 }
+
+.contacts .form-control {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.contacts .form-control::placeholder {
+  color: lightgrey;
+}
+
+.contacts .btn-default {
+  background: #1abc9c;
+  font-size: 18px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.contacts .btn-default:hover {
+  background: #369c87;
+  transition: 0.4s;
+}
+
+
 
 /* about-us */
 

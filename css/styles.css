@@ -209,35 +209,45 @@ main .portfolio {
   transition: 0.4s;
 }
 
-/* about-us footer */
-footer {
+.contacts label {
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+/* footer style */
+
+.main-footer {
+    color: white;
+}
+
+.footer-pre {
+  padding: 60px 0;
   background: #2c3e50;
-  color: white;
-  padding-top: 20px;
 }
 
-footer .about-us ul li {
-  padding: 10px 10px;
-  margin: 10px;
-  border: 1px solid white;
-  width: 50px;
+.footer-box .social a {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
   border-radius: 50%;
+  border: 2px solid;
+  transition: background .4s;
 }
 
-footer .about-us ul li:hover {
+.footer-box .social a:hover {
   background: white;
-  transition: background 0.4s;
+  color:  #2c3e50;
 }
 
-footer .about-us ul li a {
-  color: white;
+.main-footer .link-green {
+  color: #1abc9c;
 }
 
-footer .about-us ul li:hover a {
-  color: black;
-}
-
-.credits {
+.main-footer .footer-credits {
   background: #1a252f;
-  line-height: 60px;
+  font-size: 12px;
+  line-height: 80px;
 }

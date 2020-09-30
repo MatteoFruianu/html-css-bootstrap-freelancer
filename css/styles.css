@@ -1,8 +1,18 @@
 /* general */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h2 {
   font-size: 48px;
   font-weight: bold;
   padding-top: 50px;
+}
+
+h3 {
+  font-weight: bold;
+  padding: 10px;
 }
 
 i {
@@ -136,25 +146,35 @@ main img {
 
 /* about-us */
 
-.about-us {
-  background: #51adcf;
-}
-
-.about-us .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.about-us .container .row>div {
-  background: #e8ffc1;
-  border: 1px solid lightcoral;
-}
-
-
 footer {
-  background: black;
+  background: #2c3e50;
+  color: white;
+  padding-top: 20px;
 }
 
-footer .container {
-  background: #a5ecd7;
+footer .about-us ul li {
+  padding: 10px 10px;
+  margin:10px;
+  border: 1px solid white;
+  width: 50px;
+  border-radius: 50%;
+}
+
+footer .about-us ul li:hover {
+  background: white;
+  transition: background 0.4s;
+}
+
+
+footer .about-us ul li a {
+  color: white;
+}
+
+footer .about-us ul li:hover a {
+  color: black;
+}
+
+.credits {
+  background: #1a252f;
+  line-height: 60px;
 }

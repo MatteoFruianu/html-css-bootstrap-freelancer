@@ -14,8 +14,10 @@
 <body>
 
 
+
+
   <header class="main-header">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -43,56 +45,96 @@
 
   <!-- jumbotron -->
 
-  <section>
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container text-center">
-        <img class="img-responsive center-block" src="./images/avatar.svg" alt="">
-        <h1 class="display-4">START BOOTSTRAP</h1>
-        <p><i class="fas fa-star"></i></p>
-        <p class="lead">Graphic artist - Web Designer - Illustrator</p>
+
+  <section class="jumbotron jumbotron-fluid section-green">
+    <div class="container text-center">
+      <img class="img-responsive center-block" src="./images/avatar.svg" alt="">
+      <h1 class="display-4">START BOOTSTRAP</h1>
+      <div class="star-divider">
+        <i class="fas fa-star"></i>
       </div>
+      <p class="lead">Graphic artist - Web Designer - Illustrator</p>
     </div>
   </section>
 
 
+
   <!-- main -->
 
-  <main>
-    <div class="container portfolio text-center">
-      <h2 class="big">PORTFOLIO</h2>
-      <p><i class="fas fa-star"></i></p>
+  <main class="section-grey portfolio container text-center">
+    <div class="portfolio-title">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="./images/cabin.png" alt="cabin">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="./images/cake.png" alt="cabin">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="./images/circus.png" alt="cabin">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="./images/game.png" alt="cabin">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="./images/safe.png" alt="cabin">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="./images/submarine.png" alt="cabin">
+        <div class="col-xs-12">
+          <h2 class="big">PORTFOLIO</h2>
+          <div class="star-divider star-blue">
+            <i class="fas fa-star"></i>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="portfolio-item">
+            <div class="portfolio-layover">
+                <i class="fas fa-plus"></i>
+            </div>
+            <img class="img-responsive" src="./images/cabin.png" alt="cabin image">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="portfolio-item">
+            <div class="portfolio-layover">
+                <i class="fas fa-plus"></i>
+            </div>
+            <img class="img-responsive" src="./images/cake.png" alt="cake image">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="portfolio-item">
+            <div class="portfolio-layover">
+                <i class="fas fa-plus"></i>
+            </div>
+            <img class="img-responsive" src="./images/circus.png" alt="circus image">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="portfolio-item">
+            <div class="portfolio-layover">
+                <i class="fas fa-plus"></i>
+            </div>
+            <img class="img-responsive" src="./images/game.png" alt="joypad image">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="portfolio-item">
+            <div class="portfolio-layover">
+                <i class="fas fa-plus"></i>
+            </div>
+            <img class="img-responsive" src="./images/safe.png" alt="safe image">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="portfolio-item">
+            <div class="portfolio-layover">
+                <i class="fas fa-plus"></i>
+            </div>
+            <img class="img-responsive" src="./images/submarine.png" alt="submarine image">
+          </div>
+        </div>
+
+        </div>
+
   </main>
 
   <!-- about section -->
 
-  <section class="about">
+  <section class="section-green about">
     <div class="container">
       <h2 class="text-center">ABOUT</h2>
-      <p class="text-center"><i class="fas fa-star"></i></p>
+      <div class="star-divider">
+        <i class="fas fa-star"></i>
+      </div>
       <div class="row">
         <div class="col-xs-12 col-sm-3 col-sm-offset-3">
           Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
@@ -109,12 +151,12 @@
 
   <!-- contacts section -->
 
-  <section class="contacts">
+  <section class="contacts section-grey">
     <div class="container">
       <h2 class="text-center">CONTACT ME</h2>
-      <p class="text-center"><i class="fas fa-star"></i></p>
-
-
+      <div class="star-divider star-blue">
+        <i class="fas fa-star"></i>
+      </div>
       <div class="row col-xs-12 col-md-8 col-md-offset-2">
         <form>
           <div class="form-group">
@@ -140,16 +182,16 @@
 
   <footer>
 
-  <section class="about-us">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-xs-12 col-sm-4">
-          <h3>LOCATION</h3>
-          <p>2215 John Daniel Drive
+    <section class="about-us text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <h3>LOCATION</h3>
+            <p>2215 John Daniel Drive
               Clark, MO 65243 </p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <h3>AROUND THE WEB</h3>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h3>AROUND THE WEB</h3>
 
             <ul class="list-inline">
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -158,32 +200,29 @@
               <li><a href="#"><i class="fas fa-basketball-ball"></i></a></li>
             </ul>
 
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <h3>ABOUT FREELANCER</h3>
-          <p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap . </p>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h3>ABOUT FREELANCER</h3>
+            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap . </p>
+          </div>
         </div>
       </div>
-    </div>
 
-  </section>
 
-      <div class="row text-center">
+
+      <div>
         <div class="col-xs-12 credits">
           Copyright © Your Website 2020
         </div>
       </div>
-    </div>
+      </div>
+    </section>
+
   </footer>
+
 
 </body>
 
 </html>
-
-
-
-
-
-</body>
 
 </html>
